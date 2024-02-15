@@ -1,0 +1,44 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PlatformIO Debugging Solution
+//
+// Documentation: https://docs.platformio.org/en/latest/plus/debugging.html
+// Configuration: https://docs.platformio.org/en/latest/projectconf/sections/env/options/debug/index.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "/Users/jthiller/Documents/GitHub.nosync/platform-heltec-cubecell-demo/LoRaWAN/.pio/build/cubecell_board/firmware.elf",
+            "projectEnvName": "cubecell_board",
+            "toolchainBinDir": "/Users/jthiller/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "/Users/jthiller/Documents/GitHub.nosync/platform-heltec-cubecell-demo/LoRaWAN/.pio/build/cubecell_board/firmware.elf",
+            "projectEnvName": "cubecell_board",
+            "toolchainBinDir": "/Users/jthiller/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "/Users/jthiller/Documents/GitHub.nosync/platform-heltec-cubecell-demo/LoRaWAN/.pio/build/cubecell_board/firmware.elf",
+            "projectEnvName": "cubecell_board",
+            "toolchainBinDir": "/Users/jthiller/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "loadMode": "manual"
+        }
+    ]
+}
