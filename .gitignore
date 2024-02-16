@@ -1,2 +1,4 @@
 *.pyc
 .pio
+LoRaWAN/.vscode/c_cpp_properties.json
+LoRaWAN/output.map
